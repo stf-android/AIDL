@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mvvm.com.git1.Main6Activity">
+
+    <mvvm.com.git1.view.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        app:circle_color="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/my_pid_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/say_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:onClick="say_add_button"
+        android:text="say_add_button" />
+
+    <TextView
+        android:id="@+id/say_get_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:onClick="say_get_button"
+        android:text="say_get_button" />
+
+
+</LinearLayout>
